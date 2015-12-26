@@ -10,14 +10,15 @@ import processing.core.PGraphics;
  *
  */
 public class OceanQuakeMarker extends EarthquakeMarker {
-	
+	int cpunter =0 ;
 	public OceanQuakeMarker(PointFeature quake) {
 		super(quake);
 		
 		// setting field in earthquake marker
 		isOnLand = false;
+		cpunter++;
 	}
-	
+
 
 	/** Draw the earthquake as a square */
 	@Override
