@@ -56,7 +56,12 @@ public abstract class EarthquakeMarker extends CommonMarker
 	}
 	
 	// TODO: Add the method:
-	// public int compareTo(EarthquakeMarker marker)
+	public int compareTo(EarthquakeMarker marker){
+		
+		
+		return color;
+		
+	}
 	
 	
 	// calls abstract method drawEarthquake and then checks age and draws X if needed
